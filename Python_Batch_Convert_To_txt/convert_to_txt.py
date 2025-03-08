@@ -22,9 +22,9 @@ def convert_to_txt(source_path, destination_path):
                     shutil.copy(os.path.join(root, file), os.path.join(dest_dir, new_file_name))
                     print(f"Converted '{file}' to '{new_file_name}'")
 
-# Get source and destination paths from the user
-source_path = r"E:\Project\Android\MDPAndroidController\MDPAndroidController\app\src\main\res"
-destination_path = r"C:\Users\Hendy\OneDrive\Desktop\trash\MDP_Android_submission\res"
+################## Edit this!!
+source_path = r""
+destination_path = r""
 
 # Call the function to convert files to .txt
 convert_to_txt(source_path, destination_path)

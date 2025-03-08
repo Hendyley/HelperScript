@@ -25,9 +25,10 @@ def remove_background_from_directory(input_dir, output_dir):
             except Exception as e:
                 print(f"Error processing {filename}: {e}")
 
+################## Edit this!!
 if __name__ == "__main__":
-    input_directory = r"E:\Assets\4 Color Game\Chess"  # Use raw string (r"...")
-    output_directory = r"E:\Assets\4 Color Game\Chess\Removed_BG"  # Use raw string (r"...")
+    input_directory = r""  # Use raw string (r"...")
+    output_directory = r""  # Use raw string (r"...")
 
     remove_background_from_directory(input_directory, output_directory)
     print("Background removal completed.")
